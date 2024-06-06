@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/headind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="40sp"
+        android:textColor="#0980E8"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter you name:"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/ename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your name"
+        android:inputType="text"
+        android:textSize="30dp"
+        android:textColor="#750B0B"/>
+    <TextView
+        android:id="@+id/city"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your city:"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/ecity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your city"
+        android:inputType="text"
+        android:textSize="30dp"
+        android:textColor="#750B0B"/>
+    <TextView
+        android:id="@+id/college"
+        android:layout_margin="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your college:"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/ecollege"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your college"
+        android:inputType="text"
+        android:textSize="30dp"
+        android:textColor="#750B0B"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="30sp"
+        android:layout_margin="30sp"/>
+
+
+
+</LinearLayout>
